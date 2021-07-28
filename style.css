@@ -106,6 +106,10 @@ button{
     align-items: flex-start;
 }
 
+.hero__container{
+    margin-bottom: 2rem;
+}
+
 .text__heading{
     font-size: 1.9rem;
     line-height: 2.25rem;
@@ -114,7 +118,7 @@ button{
 }
 
 .video__footage__container{
-    margin-top: 1rem;
+    margin: 3rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +159,7 @@ button{
 .food__list__container{
     width: 100%;
     position: relative;
-    margin: 2rem 0;
+    margin: 3rem 0;
     text-align: center;
 }
 
@@ -245,6 +249,32 @@ button{
     width: 200px;
     height: 100px;
     margin: 0 5px;
+}
+
+.update__container{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.update__input{
+    border: 1px solid #ee89a0;
+    padding: 0.5rem;
+    color: #1d3357;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.update__form__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
 }
 
 .footer__logo{
@@ -346,6 +376,9 @@ button{
         color: #dd2476;
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
     }
+    .update__input{
+        width: 300px;
+    }
 }
 
 @media screen and (min-width:1024px) {  
@@ -382,6 +415,12 @@ button{
         line-height: 1;
         color: #1d3357;
         font-weight: 900;
+    }
+    .update__input{
+        width: 50%;
+    }
+    .update__container{
+        margin: 4rem 0;
     }
 }
 
