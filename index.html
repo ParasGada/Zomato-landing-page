@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Zomato</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar__brand">
+                    <img src="assets/logo.png" alt="Logo" class="brand__logo"/>
+                </div>
+                <div class="navbar__nav__items">
+                    <div class="nav__item">
+                        <button class="primary__button">Order Food</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <section class="hero__container">
+                <div class="hero__image__container">
+                    <img src="assets/hero.jpg" alt="hero image" class="hero__image"/>
+                    <img src="assets/svg/heroShape.svg" alt="hero image shape" class="hero__image__shape"/>
+                    <img src="assets/svg/herobgpattren.svg" alt="hero image pattern" class="hero__image__pattern"/>
+                </div>
+                <div class="hero__description">
+                    <h1 class="text__heading">Order food from favourite restaurants near you.</h1>
+                    <button class="primary__button">Order Now</button>
+                </div>
+            </section>
+            <section class="video__footage__container">
+                <div class="video__footage">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/323795266" width="640" height="320" frameborder="0" allowfullscreen class="chef__video" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+                </div>
+                <div class="video__footage__text">
+                    <p>Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene.
+                    </p>
+                </div>
+            </section>
+            <section class="food__list__container">
+                <h1 class="text__heading food__heading" style="text-align: center;">Explore our menu</h1>
+                <div class="food__background"></div>
+                <div class="food__card__list">
+                    <div class="food__card">
+                        <img src="assets/burger.jpg" alt="Burger image" class="food__card__image"/>
+                        <div class="food__description">
+                            <h4 class="food__card__title">Burgers</h4>
+                            <p class="food__text">Burger King, Mcdonalds, Burger Place<span style="color: red;">+3</span></p>
+                        </div>
+                    </div>
+                    <div class="food__card food__card2">
+                        <img src="assets/pizza.jpg" alt="Pizza image" class="food__card__image"/>
+                        <div class="food__description">
+                            <h4 class="food__card__title">Pizza</h4>
+                            <p class="food__text">Pizza Hut, Dominos Pizza<span style="color: red;">+3</span></p>
+                        </div>
+                    </div>
+                    <div class="food__card">
+                        <img src="assets/iceCream.jpg" alt="Icecream image" class="food__card__image"/>
+                        <div class="food__description">
+                            <h4 class="food__card__title">Ice Creams</h4>
+                            <p class="food__text">Baskins Robins, Ibaco<span style="color: red;">+3</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="button__wrapper">View More</div>
+            </section>
+            <section class="restaurants__container">
+                <div class="restaurant__description">
+                    <h4 class="restaurants__text">Order from 100s of restaurants</h4>
+                </div>
+                <div class="restaurant__images__container">
+                    <div class="restaurant__images__row1">
+                        <img src="assets/restaurant1.jpg" alt="Restaurant1" class="restaurant1"/>
+                        <img src="assets/restaurant2.jpg" alt="Restaurant2" class="restaurant2"/>
+                    </div>
+                    <div class="restaurant__images__row2">
+                        <img src="assets/restaurant4.jpg" alt="Restaurant4" class="restaurant4"/>
+                        <img src="assets/restaurant3.jpg" alt="Restaurant3" class="restaurant3"/>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <img src="assets/logo.png" alt="Logo" class="footer__logo"/>
+            <ul class="footer__link__items">
+                <li class="footer__link__item">Pricing</li>
+                <li class="footer__link__item">Terms and condition</li>
+                <li class="footer__link__item">Partnership</li>
+                <li class="footer__link__item">Career</li>
+                <li class="footer__link__item">Contact</li>
+            </ul>
+        </footer>
+    </body>
+</html>
